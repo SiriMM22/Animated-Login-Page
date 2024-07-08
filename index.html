@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="girl.png" alt="Girl" class="girl-img">
+
+  <div id="leaves">
+    <img src="leaf_01.png" alt="leaf1" class="leaves" style="--position: 0; --delay: 0s;">
+    <img src="leaf_02.png" alt="leaf2" class="leaves" style="--position: 0.25; --delay: 1s;">
+    <img src="leaf_03.png" alt="leaf3" class="leaves" style="--position: 0.5; --delay: 2s;">
+    <img src="leaf_04.png" alt="leaf4" class="leaves" style="--position: 0.75; --delay: 3s;">
+    <img src="leaf_03.png" alt="leaf" class="leaves" style="--position: 0.1; --delay: 4s;">
+    <img src="leaf_04.png" alt="leaf4" class="leaves" style="--position: 0.65; --delay: 2s;">
+  </div>
+
+  <div class="container">
+    <h2>Sign In</h2>
+    <form>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label class="forgot">
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <span class="signup">Don't have an account? <a href="#">Sign up</a></span>
+    </form>
+  </div>
+</body>
+</html>
